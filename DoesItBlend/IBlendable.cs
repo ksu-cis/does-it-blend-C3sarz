@@ -5,11 +5,11 @@ using System.Text;
 namespace DoesItBlend
 {
     /// <summary>
-    /// A base class representing fruit
+    /// Interface to blend random objects on the blender.
     /// </summary>
-    public abstract class Fruit : IBlendable
+    interface IBlendable
     {
-        public abstract string Blend();
+        string Blend();
 
     }
 }
